@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/drawable-v24/cursor.xml" value="0.1" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/drawable-v24/delete.xml" value="0.1" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/drawable-v24/edit_black.xml" value="0.1" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/drawable/catalog_class.xml" value="0.1435" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/drawable/catalog_filter.xml" value="0.1" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/drawable/panel.xml" value="0.1435" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/catalog_classes.xml" value="0.20742753623188406" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/catalog_equipments.xml" value="0.20742753623188406" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/catalog_filter.xml" value="0.20742753623188406" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/catalog_types.xml" value="0.16354166666666667" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/category_item.xml" value="0.20742753623188406" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/class_edit_item.xml" value="0.15260416666666668" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/equipment_item.xml" value="0.1" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/panel.xml" value="0.25416666666666665" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/panel_edit_class.xml" value="0.20742753623188406" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/panel_edit_equipment.xml" value="0.20742753623188406" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/panel_edit_type.xml" value="0.16354166666666667" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/products_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/layout/type_item.xml" value="0.16354166666666667" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="..\:/father/coding/kotlin/AndroidStudioProject/AB_AS/Homework_6/app/src/main/res/xml/network_security_config.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

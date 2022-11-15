@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tabs.Panel">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAddClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/addClass"
+            android:background="@color/orange"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAddType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/buttonAddClass"
+            android:layout_marginTop="10dp"
+            android:text="@string/addType"
+            android:background="@color/orange"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/headerAddEquipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/buttonAddType"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/orange"
+            android:text="@string/addEquipment"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/chooseClassEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/headerAddEquipment"
+            android:layout_margin="10dp"
+            android:text="@string/chooseClass"
+            android:background="@color/black"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/chooseTypeEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/chooseClassEquipment"
+            android:layout_margin="10dp"
+            android:text="@string/chooseType"
+            android:background="@color/black"
+            android:textColor="@color/white"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sectionEnterNameEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/chooseTypeEquipment"
+            android:layout_margin="10dp"
+            app:boxBackgroundColor="@android:color/transparent"
+            app:boxStrokeColor="@android:color/white"
+            app:startIconTint="@android:color/white"
+            app:endIconTint="@android:color/holo_red_light"
+            android:hint="@string/labelEnterNameEquipment"
+            app:hintTextColor="@android:color/white"
+            app:startIconDrawable="@drawable/catalog_equipments"
+            app:endIconMode="clear_text"
+            app:boxStrokeWidthFocused="4dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/enterNameEquipment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:textCursorDrawable="@drawable/cursor"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/sectionResEnterEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/sectionEnterNameEquipment"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/resEnterClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/orange"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/resEnterType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/orange"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/resEnterNameEquipment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/orange"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAddEquipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/sectionResEnterEquipment"
+            android:layout_marginTop="20dp"
+            android:text="@string/addEquipment"
+            android:background="@color/orange"
+            android:textColor="@color/black"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+
+

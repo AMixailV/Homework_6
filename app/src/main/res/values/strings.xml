@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Homework_6</string>
+
+    <string name="panel">ПАНЕЛЬ</string>
+    <string name="catalogClasses">КЛАСС U</string>
+    <string name="catalogTypes">ВИД</string>
+    <string name="catalogEquipments">ОБОРУДОВАНИЕ</string>
+
+    <string name="catalogFilterType">В</string>
+    <string name="catalogFilterClass">750 кВ</string>
+
+    <string name="nameType">ВЫКЛЮЧАТЕЛИ</string>
+
+    <string name="addClass">ДОБАВИТЬ КЛАСС U</string>
+    <string name="addType">ДОБАВИТЬ ВИД ОБОРУДОВАНИЯ</string>
+    <string name="addEquipment">ДОБАВИТЬ ОБОРУДОВАНИЕ</string>
+
+    <string name="editClass">ПРАВКА КЛАССА U</string>
+    <string name="editType">ПРАВКА ВИДА ОБОРУДОВАНИЯ</string>
+    <string name="editEquipment">ПРАВКА ОБОРУДОВАНИЯ</string>
+
+    <string name="labelEnterNameEquipment">Введите название оборудования</string>
+    <string name="labelEnterType">Введите тип оборудования</string>
+    <string name="labelEnterClass">Введите класс U</string>
+
+    <string name="chooseClass">Выберите класс U</string>
+    <string name="chooseType">Выберите вид оборудования</string>
+
+    <string name="deleteAllClasses">УДАЛИТЬ ВСЕ КЛАССЫ U</string>
+    <string name="deleteAllTypes">УДАЛИТЬ ВСЕ ВИДЫ ОБОРУДОВАНИЯ</string>
+    <string name="deleteAllEquipments">УДАЛИТЬ ВСЁ ОБОРУДОВАНИЕ</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Единица измерения</string>
+    <string name="cancel">Нет</string>
+    <string name="ok">Да</string>
+    <string name="enterClassU">Введите значение. Нажите Ввод и выберете единицу измерения</string>
+    <string name="apply">ПРИМЕНИТЬ</string>
+    <string name="description">Выберите параметры и нажмите ПРИМЕНИТЬ</string>
+
+</resources>

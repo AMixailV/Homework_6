@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/panelItemBottomNav"
+        android:icon="@drawable/panel"
+        android:title="@string/panel"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/catalogClassesItemBottomNav"
+        android:icon="@drawable/catalog_classes"
+        android:title="@string/catalogClasses"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/catalogTypesItemBottomNav"
+        android:icon="@drawable/catalog_types"
+        android:title="@string/catalogTypes"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/catalogEquipmentsItemBottomNav"
+        android:icon="@drawable/catalog_equipments"
+        android:title="@string/catalogEquipments"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/catalogFilterItemBottomNav"
+        android:icon="@drawable/catalog_filter"
+        android:title="@string/catalogFilterType"
+        app:showAsAction="ifRoom"/>
+
+</menu>
